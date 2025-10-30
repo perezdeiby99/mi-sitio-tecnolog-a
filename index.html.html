@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inteligencia Artificial 🤖</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #000000, #001f1f);
+      color: #e0e0e0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #111;
+      color: #00ffff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px #00ffff33;
+    }
+    @keyframes brillar {
+      0%, 100% { text-shadow: 0 0 10px #00ffff; }
+      50% { text-shadow: 0 0 20px #00ffff; }
+    }
+    header h1 {
+      animation: brillar 2s infinite;
+    }
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      border-bottom: 1px solid #00ffff55;
+    }
+    nav a {
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #00ffff;
+      border-left: 5px solid #00ffff;
+      padding-left: 10px;
+    }
+    img {
+      display: block;
+      width: 70%;
+      max-width: 400px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00ffff55;
+      transition: transform 0.3s ease;
+    }
+    img:hover {
+      transform: scale(1.05);
+    }
+    p {
+      text-align: justify;
+      font-size: 17px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin: 8px 0;
+    }
+    iframe {
+      display: block;
+      margin: 30px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00ffff55;
+      width: 80%;
+      max-width: 560px;
+      height: 315px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background: #111;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00ffff33;
+      max-width: 500px;
+      margin: 20px auto;
+    }
+    input, textarea {
+      background-color: #000;
+      color: #fff;
+      border: 1px solid #00ffff55;
+      border-radius: 5px;
+      padding: 10px;
+      font-size: 15px;
+    }
+    input[type="submit"] {
+      background-color: #00ffff;
+      color: #000;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    input[type="submit"]:hover {
+      background-color: #00cccc;
+    }
+    footer {
+      background-color: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      border-top: 1px solid #00ffff33;
+      animation: aparecer 3s ease-in-out;
+    }
+    @keyframes aparecer {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background-color: #111;
+      color: #00ffff;
+      box-shadow: 0 0 10px #00ffff55;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    table th, table td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #00ffff33;
+    }
+    table th {
+      background-color: #000;
+    }
+    table tr:hover {
+      background-color: #00ffff11;
+    }
+    .enlace-extra {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .enlace-extra a {
+      color: #00ffff;
+      text-decoration: underline;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .enlace-extra a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Inteligencia Artificial 🤖</h1>
+    <p>El futuro de la tecnología al alcance de todos</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">🏠 Inicio</a>
+    <a href="#info">📘 Información</a>
+    <a href="#aplicaciones">⚙ Aplicaciones</a>
+    <a href="#futuro">🚀 Futuro</a>
+    <a href="#contacto">📩 Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>¿Qué es la Inteligencia Artificial?</h2>
+    <img src="artificial1.JPG" alt="Cerebro digital IA">
+    <p>
+      La <strong>Inteligencia Artificial (IA)</strong> es una rama de la informática que busca desarrollar programas o máquinas capaces de pensar, razonar y aprender como los seres humanos. Su objetivo es crear sistemas que puedan analizar información, tomar decisiones y resolver problemas sin intervención humana directa.
+    </p>
+    <p>
+      La IA se basa en algoritmos, estadísticas y modelos matemáticos que permiten a las máquinas interpretar datos, reconocer patrones, realizar predicciones y tomar decisiones inteligentes. A diferencia del software tradicional, la IA puede mejorar su rendimiento a medida que recibe más datos y experiencia, gracias al aprendizaje automático y a redes neuronales profundas.
+    </p>
+    <p>
+      Además, la IA no se limita solo a tareas lógicas: también puede generar textos, traducir idiomas, componer música o incluso crear imágenes y videos mediante algoritmos avanzados de inteligencia artificial generativa. Esto abre la puerta a aplicaciones creativas y artísticas que antes eran exclusivas de los humanos.
+    </p>
+    <p>
+      La IA puede clasificarse según su capacidad de adaptación: desde sistemas que siguen reglas fijas hasta algoritmos capaces de aprender de grandes volúmenes de datos y mejorar su desempeño con el tiempo. Este aprendizaje continuo es la base de tecnologías como los autos autónomos y los asistentes virtuales inteligentes.
+    </p>
+    <p><em>Dato curioso:</em> Aunque la IA puede imitar el razonamiento humano, no tiene emociones ni conciencia; su “inteligencia” depende completamente de los datos y las instrucciones de programación. Por ejemplo, un modelo de IA puede escribir un poema impresionante, pero no comprende ni siente lo que está escribiendo.</p>
+    <iframe src="https://www.youtube.com/embed/_tA5cinv0U8" title="Video IA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+  <section id="info">
+    <h2>Tipos de Inteligencia Artificial</h2>
+    <img src="Inteligencia.PNG" alt="Tipos de IA">
+    <p>
+      Existen diferentes tipos de IA según su capacidad, funciones y complejidad. Cada tipo tiene aplicaciones específicas que van desde asistentes virtuales hasta conceptos teóricos de superinteligencia. Además, estas clasificaciones ayudan a los investigadores a establecer límites, objetivos y expectativas sobre lo que la IA puede lograr.
+    </p>
+    <p>
+      Otra manera de clasificar la IA es según su forma de aprendizaje: supervisada, no supervisada y por refuerzo. Los algoritmos supervisados aprenden a partir de datos etiquetados, los no supervisados identifican patrones sin guía y los de refuerzo mejoran mediante prueba y error, optimizando su comportamiento frente a objetivos específicos.
+    </p>
+    <table>
+      <tr>
+        <th>Tipo de IA</th>
+        <th>Ejemplo</th>
+        <th>Función</th>
+      </tr>
+      <tr>
+        <td>IA débil</td>
+        <td>Siri, Alexa, chatbots</td>
+        <td>Realiza tareas concretas y limitadas, como responder preguntas, filtrar correos o recomendar música. No posee conciencia ni inteligencia general. Aunque pueda simular conversación humana, siempre depende de programación específica y datos previos.</td>
+      </tr>
+      <tr>
+        <td>IA fuerte</td>
+        <td>Investigación avanzada</td>
+        <td>Busca imitar todas las capacidades cognitivas humanas, incluyendo razonamiento, planificación y comprensión compleja de situaciones, aún en desarrollo. Esta IA podría aprender múltiples dominios y adaptarse a situaciones imprevistas.</td>
+      </tr>
+      <tr>
+        <td>IA general</td>
+        <td>Teórico</td>
+        <td>Podría aprender cualquier habilidad humana y adaptarse a diferentes contextos sin programación específica. Se considera un objetivo a largo plazo de la investigación en IA. Este tipo de IA tendría la capacidad de transferir conocimientos entre áreas distintas, similar a cómo lo hace un humano.</td>
+      </tr>
+      <tr>
+        <td>IA superinteligente</td>
+        <td>Teórico</td>
+        <td>Superaría la inteligencia humana en todas las áreas, desde la creatividad hasta la toma de decisiones complejas y análisis de problemas globales. Actualmente es solo una hipótesis, pero plantea debates éticos y de seguridad significativos sobre su desarrollo.</td>
+      </tr>
+    </table>
+    <div class="enlace-extra">
+      <a href="https://universidadeuropea.com/blog/tipos-inteligencia-artificial/" target="_blank">Leer más sobre los tipos de Inteligencia Artificial</a>
+    </div>
+  </section>
+
+  <section id="aplicaciones">
+    <h2>Aplicaciones en la vida real</h2>
+    <img src="IA.JPEG" alt="IA en medicina y robótica">
+    <p>
+      La IA está presente en muchos ámbitos de nuestra vida cotidiana y profesional, ayudando a mejorar eficiencia, seguridad y calidad de vida. Sus aplicaciones son cada vez más innovadoras y adaptadas a necesidades humanas y empresariales.
+    </p>
+    <ul>
+      <li><strong>Salud:</strong> Diagnóstico de enfermedades mediante análisis de imágenes, detección temprana de cáncer, desarrollo de nuevos medicamentos y apoyo en cirugías robotizadas. Además, la IA permite predecir brotes de enfermedades y optimizar recursos hospitalarios.</li>
+      <li><strong>Transporte:</strong> Vehículos autónomos, sistemas inteligentes de tráfico, rutas optimizadas y prevención de accidentes. Los algoritmos pueden analizar millones de datos de tráfico en tiempo real para reducir congestionamientos y mejorar la seguridad vial.</li>
+      <li><strong>Tecnología:</strong> Reconocimiento facial, asistentes virtuales, recomendaciones personalizadas en redes sociales y comercio electrónico, así como traducción automática de idiomas. También permite la detección de fraudes, ciberseguridad y análisis predictivo de tendencias digitales.</li>
+      <li><strong>Industria:</strong> Robótica industrial, control de calidad automatizado, mantenimiento predictivo y optimización de procesos de producción. Los sistemas de IA mejoran la eficiencia energética y reducen costos operativos.</li>
+      <li><strong>Educación:</strong> Plataformas de aprendizaje adaptativo que personalizan los contenidos según el ritmo y nivel de cada estudiante, ayudando a mejorar el rendimiento académico. También permite la creación de tutores virtuales y simulaciones de aprendizaje interactivas.</li>
+      <li><strong>Medio ambiente:</strong> Monitoreo de contaminación, predicción de desastres naturales, optimización energética y conservación de ecosistemas mediante análisis de datos masivos. La IA contribuye a la gestión sostenible de recursos y a la mitigación del cambio climático.</li>
+      <li><strong>Entretenimiento:</strong> Creación de videojuegos más realistas, música y películas generadas por IA, así como recomendaciones personalizadas para mejorar la experiencia del usuario. También se utiliza en análisis de audiencia y creación de experiencias interactivas innovadoras.</li>
+    </ul>
+  </section>
+
+  <section id="futuro">
+    <h2>El futuro de la IA</h2>
+    <img src="IA2.JPG" alt="Futuro de la IA">
+    <p>
+      El futuro de la IA promete transformar profundamente la sociedad, la economía y la educación. Se espera que la inteligencia artificial colabore con humanos para resolver problemas complejos y acelerar la innovación tecnológica.
+    </p>
+    <p>
+      La integración de IA en áreas como medicina personalizada, investigación científica, energías renovables y exploración espacial permitirá avances que antes parecían imposibles. La IA se volverá cada vez más autónoma y capaz de tomar decisiones complejas con mínima supervisión humana.
+    </p>
+    <p>
+      Sin embargo, el desarrollo de la IA plantea desafíos éticos y sociales, como la privacidad, la seguridad, el desempleo debido a la automatización y la necesidad de regulaciones claras. La IA responsable requiere transparencia en los algoritmos y reglas que garanticen un impacto positivo en la humanidad. Las decisiones automatizadas deben ser auditables y explicables.
+    </p>
+    <p>
+      Además, la IA tiene el potencial de crear nuevas industrias y oportunidades de empleo, especialmente en programación, ciencia de datos, mantenimiento de sistemas inteligentes y educación tecnológica. La colaboración entre humanos y máquinas inteligentes será clave para aumentar productividad y creatividad.
+    </p>
+    <p>
+      Es fundamental que la IA se utilice de forma ética y que su evolución esté centrada en el bienestar humano, promoviendo la inclusión y evitando cualquier discriminación automática o sesgo injusto. La educación sobre IA y sus implicaciones será esencial para formar ciudadanos críticos y responsables.
+    </p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo" required>
+      <textarea placeholder="Escribe tu mensaje..." rows="4"></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <footer>
+    <p>Proyecto escolar - Alumno: <strong>Deiby Johan Pérez Raymundo</strong></p>
+    <p>Materia: <strong>Informática</strong> | Año 2025</p>
+  </footer>
+</body>
+</html>
